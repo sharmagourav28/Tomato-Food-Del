@@ -4,7 +4,7 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
   const [cartItems, setcardItems] = useState({});
-  const url = "http://localhost:7000";
+  const url = "https://tomato-food-del-black.vercel.app/";
   const [token, setToken] = useState("");
   const [food_list, setfood_list] = useState([]); //backend se frontend data dekhna
   const addTocart = async (itemId) => {
