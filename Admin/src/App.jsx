@@ -9,7 +9,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
-  const url = "http://localhost:7000";
+  const url = "https://tomato-food-del-black.vercel.app/";
   return (
     <div>
       <ToastContainer />
